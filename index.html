@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+<body>
+    <h1 id="h1">CALCULATOR</h1>
+    <form name="f1">
+    <div class="container" name="box">
+        <div id="box1">
+            <div>
+                <input type="text" id="box2" name="boxs">
+            </div>
+            <div >
+                <input type="button" value="9" class="box3" onclick = "f1.boxs.value += '9' ">
+                <input type="button" value="8" class="box3" onclick = "f1.boxs.value += '8' ">
+                <input type="button" value="7" class="box3" onclick = "f1.boxs.value += '7' ">
+                <input type="button" value="+" class="box3" onclick = "f1.boxs.value += '+' ">
+            </div>
+            <div>
+                <input type="button" value="6" class="box3" onclick = "f1.boxs.value += '6' ">
+                <input type="button" value="5" class="box3" onclick = "f1.boxs.value += '5' ">
+                <input type="button" value="4" class="box3" onclick = "f1.boxs.value += '4' ">
+                <input type="button" value="-" class="box3" onclick = "f1.boxs.value += '-' ">   
+            </div>
+            <div>
+                <input type="button" value="3" class="box3" onclick = "f1.boxs.value += '3' ">
+                <input type="button" value="2" class="box3" onclick = "f1.boxs.value += '2' ">
+                <input type="button" value="1" class="box3" onclick = "f1.boxs.value += '1' ">
+                <input type="button" value="*" class="box3" onclick = "f1.boxs.value += '*' ">
+            </div>
+            <div>
+                <input type="button" value="0" class="box3" onclick = "f1.boxs.value += '0' ">
+                <input type="button" value="." class="box3" onclick = "f1.boxs.value += '.' ">
+                <input type="button" value="/" class="box3" onclick = "f1.boxs.value += '/' ">
+                <input type="button" value="=" class="box3" onclick = "f1.boxs.value = 
+                 eval(f1.boxs.value) ">
+            </div>
+        <div>
+            <input type = "button" value = "Clear All" onclick = 
+"f1.boxs.value = ' ' " id= "box4" >  
+        </div>
+
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>
